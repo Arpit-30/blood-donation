@@ -1,0 +1,97 @@
+body{
+    width:100wh;
+    height: 100vh;
+    background-image: url("3d-streaming-blood-cells-on-red-background-illustration-vector.jpg");
+    background-size:cover;
+    mask-repeat: no-repeat;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: larger;
+    font-family: Arial, sans-serif;
+}
+.bona-nova-sc-regular {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+                      
+.bona-nova-sc-bold {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+                      
+.bona-nova-sc-regular-italic {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+label{
+    font-size:m;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: white;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+               
+input[type=submit]{
+    font-size: larger;
+}
+.tb1 {
+    border-radius: 7px;
+    width: 250px;
+    height: 20px;
+    
+}
+.sel{
+    border-radius: 7px;
+    width: 90px;
+    height: 20px;
+}
+.btn{
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+}
+/* nav start here */
+header {
+    background-color: #ff4d4d;
+   
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: black;
+}
+nav ul li img{
+    width: 200px;
+    height: 80px;
+}
